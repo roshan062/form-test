@@ -1,0 +1,45 @@
+form#popup {
+  width: 40%;
+  height: 75%;
+  padding: 30px 50px 50px 50px;
+  position: fixed;
+  left: 32%;
+  top: 16vh;
+  background-color: white;
+  visibility: hidden;
+  border: 1px solid;
+  box-shadow: "5px 10px #888888";
+  z-index: 100;
+}
+@media (max-width: 1000px) {
+  form#popup {
+    top: 18vh;
+    height: 73%;
+    width: 80%;
+    left: 11%;
+    z-index: 100;
+  }
+}
+form#popup button {
+  position: relative;
+  bottom: 55px;
+  left: 90%;
+  cursor: pointer;
+  border: none;
+}
+@media (max-width: 1000px) {
+  form#popup button {
+    top: -13%;
+    left: 96%;
+  }
+}
+form#popup p button {
+  position: relative;
+  left: 0px;
+  top: -15px;
+}
+@media (max-width: 700px) {
+  form#popup p button {
+    top: -10px;
+  }
+}/*# sourceMappingURL=popup.module.css.map */
