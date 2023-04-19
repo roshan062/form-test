@@ -28,7 +28,7 @@ const HeroAgency = () => {
                 <div className="ptf-showcase-image image-1">
                     <div className="ptf-showcase-slide">
                         <div className="container">
-                            <h1 className="fz-80 fz-70--lg lh-1 has-white-color text-center">
+                            <h1 className="fz-50 fz-70--lg lh-1 has-white-color text-center">
                                 <span className="has-accent-1"> Web & Mobile </span> App<br />
                                 Development Company
                             </h1>
@@ -75,7 +75,7 @@ const HeroAgency = () => {
                 <div className="ptf-showcase-image image-2">
                     <div className="ptf-showcase-slide">
                         <div className="container">
-                            <h1 className="fz-80 fz-60--lg lh-1 has-white-color text-center">
+                            <h1 className="fz-50 fz-60--lg lh-1 has-white-color text-center">
                                 <span className="has-accent-1">Google Sheets</span> and <br />
                                 Google Apps Script Automation
                             </h1>
@@ -110,7 +110,7 @@ const HeroAgency = () => {
                 <div className="ptf-showcase-image image-3">
                     <div className="ptf-showcase-slide">
                         <div className="container">
-                            <h1 className="fz-90 fz-60--lg lh-1 has-white-color">
+                            <h1 className="fz-50 fz-60--lg lh-1 has-white-color">
                                 <span className="has-accent-1"> Digital</span> Marketing
                                 Agency
                             </h1>
