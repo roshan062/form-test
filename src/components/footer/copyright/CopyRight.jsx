@@ -13,15 +13,17 @@ const CopyRight = () => {
         </Link>
       </div>
       <div className="col-12 col-md text-md-center text-lg-center">
-        <p className="ptf-footer-copyright has-black-color">
-          ©2016-{" " + new Date().getFullYear()}{" "}
-          <span>
-            Multi Cloud Ai
+        <p className="ptf-footer-copyright has-accent-1" >
+          <a href="https://www.mcai.io/sitemap.xml">Sitemap</a> | Terms & Conditions | Disclaimer
+          <br />
+          <span className="has-black-color">
+            ©2016-{" " + new Date().getFullYear()}{" "}
+            <span>
+              Multi Cloud Ai
+            </span>
+            . All Rights Reserved.
           </span>
-          . All Rights Reserved.
         </p>
-        <p className="ptf-footer-copyright has-accent-1">
-          <a href="https://www.mcai.io/sitemap.xml">Sitemap</a> | Terms & Conditions | Disclaimer</p>
       </div>
       <div className="col-12 col-lg text-md-center text-lg-end">
         <div className="ptf-footer-socials has-black-color ">
