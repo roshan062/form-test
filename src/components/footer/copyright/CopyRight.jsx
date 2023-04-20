@@ -14,7 +14,7 @@ const CopyRight = () => {
       </div>
       <div className="col-12 col-md text-md-center text-lg-center">
         <p className="ptf-footer-copyright has-accent-1" >
-          <a href="https://www.mcai.io/sitemap.xml">Sitemap</a> | Terms & Conditions | Disclaimer
+          <a href="/sitemap.xml">Sitemap</a> | Terms & Conditions | Disclaimer
           <br />
           <span className="has-black-color">
             ©2016-{" " + new Date().getFullYear()}{" "}
