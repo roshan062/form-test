@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import CounterAgency from "../../components/counter/CounterAgency";
@@ -15,6 +15,21 @@ import TestimonialForHome from "../../components/testimonial/TestimonialForHome"
 import BlogForHome from "../../components/blog/BlogForHome";
 
 const NewAgencyHome = () => {
+    const [isDesktop, setIsDesktop] = useState(false);
+
+    useEffect(() => {
+        function handleResize() {
+            setIsDesktop(window.innerWidth >= 992);
+        }
+
+        window.addEventListener('resize', handleResize);
+
+        handleResize();
+
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
+
     return (
         <div className="ptf-site-wrapper animsition ptf-is--home-agency">
             <Helmet>
@@ -157,7 +172,9 @@ const NewAgencyHome = () => {
                                             data-aos="fade"
                                             data-aos-delay="0"
                                         >
-                                            <h6 className="fz-16 has-white-color text-uppercase">
+                                            <h6
+                                                className={`text-uppercase fz-16 ${isDesktop ? 'has-white-color' : ''}`}
+                                            >
                                                 About Us
                                             </h6>
                                             {/* <!--Spacer--> */}
@@ -165,20 +182,26 @@ const NewAgencyHome = () => {
                                                 className="ptf-spacer"
                                                 style={{ "--ptf-xxl": "1.875rem" }}
                                             ></div>
-                                            <h3 className="has-white-color" style={{ maxWidth: "30rem" }}>
+                                            <h3
+                                                className={` ${isDesktop ? 'has-white-color' : ''}`}
+                                                style={{ maxWidth: "30rem" }}>
                                                 We bring trusted solutions for your business
                                             </h3>
                                             {/* <!--Spacer--> */}
                                             <div
-                                                className="ptf-spacer has-white-color"
+                                                className="ptf-spacer"
                                                 style={{ "--ptf-xxl": "5rem", "--ptf-md": "2.5rem" }}
                                             ></div>
-                                            <p className="fz-18 has-white-color" style={{ maxWidth: "30rem" }}>
+                                            <p
+                                                className={`fz-18 ${isDesktop ? 'has-white-color' : ''}`}
+                                                style={{ maxWidth: "30rem" }}>
                                                 Multi Cloud Ai is a certified, award-winning software
                                                 development company that predominantly  focuses on client requirements and
                                                 endeavour to deliver result oriented solutions.
                                             </p>
-                                            <p className="fz-18 has-white-color" style={{ maxWidth: "30rem" }}>
+                                            <p
+                                                className={`fz-18 ${isDesktop ? 'has-white-color' : ''}`}
+                                                style={{ maxWidth: "30rem" }}>
                                                 We are experts in Web Technologies, Mobile Technologies, and Digital Marketing
                                                 and provide cutting edge solutions so that you do not have to hire multiple companies
                                                 to get your project done.
@@ -314,7 +337,7 @@ const NewAgencyHome = () => {
                                             <p className="fz-18">
                                                 We help ambitious businesses like yours generate more
                                                 profits by building awareness, driving web traffic,
-                                                connecting with customers and growing overall sales by Raj.
+                                                connecting with customers and growing overall sales.
                                             </p>
                                         </div>
                                         {/* <!--Spacer--> */}
