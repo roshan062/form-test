@@ -20,6 +20,8 @@ const CopyRight = () => {
           </span>
           . All Rights Reserved.
         </p>
+        <p className="ptf-footer-copyright has-accent-1">
+          <a href="https://www.mcai.io/sitemap.xml">Sitemap</a> | Terms & Conditions | Disclaimer</p>
       </div>
       <div className="col-12 col-lg text-md-center text-lg-end">
         <div className="ptf-footer-socials has-black-color ">
