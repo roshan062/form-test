@@ -84,7 +84,7 @@ const NewAgencyHome = () => {
                                                     Directly
                                                 </div>
                                                 <div className="ptf-phone-block__phone">
-                                                    <a href="tel:+1 585 632 0663">(+1) 585 632 0663</a>
+                                                    <a href="tel:+1 585 632 0660">(+1) 585 632 0660</a>
                                                 </div>
                                             </div>
                                         </div>
