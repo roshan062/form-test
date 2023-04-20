@@ -197,7 +197,7 @@ const NewAgencyHome = () => {
                                                 style={{ maxWidth: "30rem" }}>
                                                 Multi Cloud Ai is a certified, award-winning software
                                                 development company that predominantly  focuses on client requirements and
-                                                endeavour to deliver result oriented solutions.
+                                                endeavour to deliver result oriented solutions by Raj.
                                             </p>
                                             <p
                                                 className={`fz-18 ${isDesktop ? 'has-white-color' : ''}`}
