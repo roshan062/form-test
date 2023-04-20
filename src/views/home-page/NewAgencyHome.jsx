@@ -314,7 +314,7 @@ const NewAgencyHome = () => {
                                             <p className="fz-18">
                                                 We help ambitious businesses like yours generate more
                                                 profits by building awareness, driving web traffic,
-                                                connecting with customers and growing overall sales.
+                                                connecting with customers and growing overall sales by Raj.
                                             </p>
                                         </div>
                                         {/* <!--Spacer--> */}
