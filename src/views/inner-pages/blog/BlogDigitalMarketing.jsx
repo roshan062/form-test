@@ -113,7 +113,7 @@ const BlogDigitalMarketing = () => {
                                                 Interestingly, it is accessible to a global audience, one can easily share relevant content
                                                 every time to understand the customer’s preferences. Furthermore, Global reach permits us
                                                 to achieve new revenue potential which means larger base of customers, diversifying
-                                                enterprise markets, improving your company’s reputation and international presence.
+                                                enterprise markets, improving your company’s reputation and international presence by Raj Shakya.
 
                                             </p>
                                             <h4 style={{ paddingTop: "20px", paddingBottom: "20px" }}>
