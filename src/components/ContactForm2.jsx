@@ -39,7 +39,7 @@ const ContactForm2 = () => {
         try {
             const response = await fetch(googleAppsScriptUrl, {
                 method: 'POST',
-                mode: 'no-cors',
+                mode: 'cors',
                 body: formData,
             });
 
