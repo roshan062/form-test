@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Search from "../search/Search";
 import DropdownMenu from "./menu/DropdownMenu";
-import MobileMenu from "./menu/MobileMenu";
+// import MobileMenu from "./menu/MobileMenu";
 
 const HeaderDefault = () => {
   const [click, setClick] = useState(false);
@@ -39,13 +39,15 @@ const HeaderDefault = () => {
               <Link className="ptf-navbar-logo" to="/">
                 <img
                   className="black"
-                  src="/assets/img/root/logo/logo.png"
+                  // src="/assets/img/root/logo/logo.png"
+                  src=""
                   alt="Logo"
                   loading="lazy"
                 />
                 <img
                   className="white"
-                  src="/assets/img/root/logo/logo.png"
+                  // src="/assets/img/root/logo/logo.png"
+                  src=""
                   alt="Logo"
                   loading="lazy"
                 />
@@ -106,7 +108,7 @@ const HeaderDefault = () => {
         </div>
         {/* End .ptf-offcanvas-menu__header */}
 
-        <MobileMenu />
+        {/* <MobileMenu /> */}
       </div>
       {/* End sidebar menu */}
     </>

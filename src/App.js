@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "aos/dist/aos.css";
 import { Helmet } from "react-helmet";
-import PopupForm from "./components/PopupForm";
+// import PopupForm from "./components/PopupForm";
 
 const App = () => {
   useEffect(() => {
@@ -17,7 +17,7 @@ const App = () => {
   return (
     <>
       <Helmet>
-        <title>Multi Cloud Ai</title>
+        <title>Roshan</title>
         <meta name="description" content="Portfolio & Agency React Template" />
         <meta
           name="keywords"
@@ -31,7 +31,7 @@ const App = () => {
 
       <AllRoutes />
       {/* End All Routes */}
-      <PopupForm />
+      {/* <PopupForm /> */}
     </>
   );
 };

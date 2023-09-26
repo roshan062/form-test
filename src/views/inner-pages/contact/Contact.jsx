@@ -5,6 +5,7 @@ import CopyRight from "../../../components/footer/copyright/CopyRight";
 import Footer from "../../../components/footer/Footer";
 import Social from "../../../components/social/Social";
 import ContactForm from "../../../components/ContactForm";
+import ContactForm2 from "../../../components/ContactForm2";
 import Address from "../../../components/Address";
 
 const Contact = () => {
@@ -85,7 +86,8 @@ const Contact = () => {
                       className="ptf-spacer"
                       style={{ "--ptf-xxl": "3.125rem" }}
                     ></div>
-                    <ContactForm />
+                    {/* <ContactForm /> */}
+                    <ContactForm2 />
                     {/* End ContactForm */}
                   </div>
                 </div>

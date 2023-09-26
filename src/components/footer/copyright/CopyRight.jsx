@@ -2,24 +2,26 @@ import React from "react";
 import SocialForCopyRight from "../../social/SocialForCopyRight";
 import { Link } from "react-router-dom";
 
-const logo = "/assets/img/root/logo/logo.png";
+// const logo = "/assets/img/root/logo/logo.png";
 
 const CopyRight = () => {
   return (
     <div className="row align-items-center justify-content-center">
       <div className="col-12 col-md">
         <Link to="/">
-          <img src={logo} alt="logo" loading="lazy" />
+          {/* <img src={logo} alt="logo" loading="lazy" /> */}
+          <img src="" alt="logo" loading="lazy" />
         </Link>
       </div>
       <div className="col-12 col-md text-md-center text-lg-center">
         <p className="ptf-footer-copyright has-accent-1" >
-          <a href="/sitemap.xml">Sitemap</a> | Terms & Conditions | Disclaimer
+          {/* <a href="/sitemap.xml">Sitemap</a> | Terms & Conditions | Disclaimer */}
+          <a href="">Sitemap</a> | Terms & Conditions | Disclaimer
           <br />
           <span className="has-black-color">
-            ©2016-{" " + new Date().getFullYear()}{" "}
+            ©2023-{" " + new Date().getFullYear()}{" "}
             <span>
-              Multi Cloud Ai
+              Roshan
             </span>
             . All Rights Reserved.
           </span>

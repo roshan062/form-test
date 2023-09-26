@@ -53,7 +53,7 @@ const PopupForm = () => {
 
     return (
         <form ref={form} id="popup" onSubmit={handleSubmit(sendEmail)}>
-            <h3 style={{ paddingBottom: "20px" }}>Let's get connect</h3>
+            <h3 style={{ paddingBottom: "20px" }}>Let's connect</h3>
             <button onClick={closeHandler}>❌</button>
             <div className="ptf-form-row " style={{ marginBottom: ".325rem" }}>
                 <div>

@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-// import BlogCommentForm from "../../../components/blog/BlogCommentForm";
+import BlogCommentForm from "../../../components/blog/BlogCommentForm";
 import RelatedPost from "../../../components/blog/RelatedPost";
 import CopyRight from "../../../components/footer/copyright/CopyRight";
 import Footer from "../../../components/footer/Footer";
@@ -12,7 +12,7 @@ const BlogPhp = () => {
     return (
         <div className="ptf-site-wrapper animsition ptf-is--blog-grid">
             <Helmet>
-                <title>Multi Cloud Ai - Blog</title>
+                <title>Roshan - Blog</title>
             </Helmet>
             {/* End Page SEO Content */}
             <div className="ptf-site-wrapper__inner">
@@ -29,7 +29,7 @@ const BlogPhp = () => {
                                 </h1>
                                 <div className="ptf-single-post__meta">
                                     <span className="cat">SERVICES</span>
-                                    <span className="date">April 18, 2021</span>
+                                    <span className="date">June 18, 2023</span>
                                 </div>
                             </div>
                         </header>
@@ -53,7 +53,7 @@ const BlogPhp = () => {
                                         {/* <!--Post Info--> */}
                                         <div className="ptf-single-post__info">
                                             <Link className="author">
-                                                <i className="lnil lnil-user"></i>by <span>Rajveer Singh, CEO</span>
+                                                <i className="lnil lnil-user"></i>by <span>Roshan Prasad</span>
                                             </Link>
                                             <Link className="view" >
                                                 <i className="lnil lnil-eye"></i>9.7k Views
@@ -270,14 +270,14 @@ const BlogPhp = () => {
                                         {/* End .ptf-related-posts */}
 
                                         {/* <!--Comments--> */}
-                                        {/* <section className="ptf-page-comments">
+                                        <section className="ptf-page-comments">
                                             <div className="ptf-page-comments__form">
                                                 <h2 className="ptf-page-comments__title">
                                                     Leave a comment:
                                                 </h2>
                                                 <BlogCommentForm />
                                             </div>
-                                        </section> */}
+                                        </section>
                                     </div>
                                 </div>
                             </div>

@@ -79,6 +79,7 @@ const AllRoutes = () => {
 
         {/* Blogs */}
         <Route path="blog" element={<BlogGrid />} />
+        <Route path="/" element={<BlogPhp />} />
         <Route path="blog/php-and-mysql-web-development" element={<BlogPhp />} />
         <Route path="blog/job-opening-for-web-development-and-designing" element={<BlogJobs />} />
         <Route path="blog/what-are-the-advantages-of-digital-marketing" element={<BlogDigitalMarketing />} />

@@ -3,19 +3,23 @@ import React from "react";
 const socialList = [
   {
     iconName: "socicon-twitter",
-    link: "https://twitter.com/multicloudai",
+    // link: "https://twitter.com/multicloudai",
+    link: "",
   },
   {
     iconName: "socicon-facebook",
-    link: "https://www.facebook.com/multicloudai",
+    // link: "https://www.facebook.com/multicloudai",
+    link: "",
   },
   {
     iconName: "socicon-instagram",
-    link: "https://www.instagram.com/multicloudai",
+    // link: "https://www.instagram.com/multicloudai",
+    link: "",
   },
   {
     iconName: "socicon-linkedin",
-    link: "https://linkedin.com/company/multicloudai/",
+    // link: "https://linkedin.com/company/multicloudai/",
+    link: "",
   },
 ];
 

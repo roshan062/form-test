@@ -69,7 +69,7 @@ const Footer = () => {
           </div>
 
           <a className="fz-40 has-black-color" href="mailto:admin@mcai.io">
-            admin@mcai.io
+            yroshan062@gmail.com
           </a>
         </div>
       </div>

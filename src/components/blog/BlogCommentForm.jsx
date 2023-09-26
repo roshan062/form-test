@@ -7,9 +7,12 @@ import emailjs from '@emailjs/browser';
 const BlogCommentForm = () => {
   // setting mailjs
   const form = useRef();
-  const serviceId = "service_7gyjl0h";
-  const publicKey = "bZ6o3hLqR8XwYxKrw";
-  const templateId = "template_1gssiux";
+  // const serviceId = "service_7gyjl0h";
+  // const publicKey = "bZ6o3hLqR8XwYxKrw";
+  // const templateId = "template_1gssiux";
+  const serviceId = "service_7g";
+  const publicKey = "bZ6o3hLqR8Xw";
+  const templateId = "template_1";
 
   const sendEmail = (data, event) => {
     event.preventDefault();
